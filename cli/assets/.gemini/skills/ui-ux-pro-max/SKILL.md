@@ -1,9 +1,9 @@
 ---
-name: ui-ux-pro-max
+name: shyftplan-ui-ux
 description: "UI/UX design intelligence. 50 styles, 21 palettes, 50 font pairings, 20 charts, 9 stacks (React, Next.js, Vue, Svelte, SwiftUI, React Native, Flutter, Tailwind, shadcn/ui). Actions: plan, build, create, design, implement, review, fix, improve, optimize, enhance, refactor, check UI/UX code. Projects: website, landing page, dashboard, admin panel, e-commerce, SaaS, portfolio, blog, mobile app, .html, .tsx, .vue, .svelte. Elements: button, modal, navbar, sidebar, card, table, form, chart. Styles: glassmorphism, claymorphism, minimalism, brutalism, neumorphism, bento grid, dark mode, responsive, skeuomorphism, flat design. Topics: color palette, accessibility, animation, layout, typography, font pairing, spacing, hover, shadow, gradient."
 ---
 
-# UI/UX Pro Max - Design Intelligence
+# shyftplan UI/UX - Design Intelligence
 
 Searchable database of UI styles, color palettes, font pairings, chart types, product recommendations, UX guidelines, and stack-specific best practices.
 
@@ -38,7 +38,7 @@ Use `run_shell_command` to execute the `search.py` script multiple times to gath
 **Command Format:**
 
 ```bash
-python3 .shared/ui-ux-pro-max/scripts/search.py "<keyword>" --domain <domain>
+python3 .shared/shyftplan-ui-ux/scripts/search.py "<keyword>" --domain <domain>
 ```
 
 **Recommended search order:**
@@ -57,7 +57,7 @@ python3 .shared/ui-ux-pro-max/scripts/search.py "<keyword>" --domain <domain>
 If user doesn't specify a stack, **default to `html-tailwind`**.
 
 ```bash
-python3 .shared/ui-ux-pro-max/scripts/search.py "<keyword>" --stack html-tailwind
+python3 .shared/shyftplan-ui-ux/scripts/search.py "<keyword>" --stack html-tailwind
 ```
 
 Available stacks: `html-tailwind`, `react`, `nextjs`, `vue`, `svelte`, `swiftui`, `react-native`, `flutter`, `shadcn`
@@ -103,38 +103,38 @@ Available stacks: `html-tailwind`, `react`, `nextjs`, `vue`, `svelte`, `swiftui`
 
 1.  Search product type:
     ```bash
-    python3 .shared/ui-ux-pro-max/scripts/search.py "beauty spa wellness service" --domain product
+    python3 .shared/shyftplan-ui-ux/scripts/search.py "beauty spa wellness service" --domain product
     ```
 
 2.  Search style (based on industry: beauty, elegant):
     ```bash
-    python3 .shared/ui-ux-pro-max/scripts/search.py "elegant minimal soft" --domain style
+    python3 .shared/shyftplan-ui-ux/scripts/search.py "elegant minimal soft" --domain style
     ```
 
 3.  Search typography:
     ```bash
-    python3 .shared/ui-ux-pro-max/scripts/search.py "elegant luxury" --domain typography
+    python3 .shared/shyftplan-ui-ux/scripts/search.py "elegant luxury" --domain typography
     ```
 
 4.  Search color palette:
     ```bash
-    python3 .shared/ui-ux-pro-max/scripts/search.py "beauty spa wellness" --domain color
+    python3 .shared/shyftplan-ui-ux/scripts/search.py "beauty spa wellness" --domain color
     ```
 
 5.  Search landing page structure:
     ```bash
-    python3 .shared/ui-ux-pro-max/scripts/search.py "hero-centric social-proof" --domain landing
+    python3 .shared/shyftplan-ui-ux/scripts/search.py "hero-centric social-proof" --domain landing
     ```
 
 6.  Search UX guidelines:
     ```bash
-    python3 .shared/ui-ux-pro-max/scripts/search.py "animation" --domain ux
-    python3 .shared/ui-ux-pro-max/scripts/search.py "accessibility" --domain ux
+    python3 .shared/shyftplan-ui-ux/scripts/search.py "animation" --domain ux
+    python3 .shared/shyftplan-ui-ux/scripts/search.py "accessibility" --domain ux
     ```
 
 7.  Search stack guidelines (default: html-tailwind):
     ```bash
-    python3 .shared/ui-ux-pro-max/scripts/search.py "layout responsive" --stack html-tailwind
+    python3 .shared/shyftplan-ui-ux/scripts/search.py "layout responsive" --stack html-tailwind
     ```
 
 **Then:** Synthesize all search results and implement the design.

@@ -1,11 +1,11 @@
-# uipro-cli
+# aiux-cli
 
-CLI to install UI/UX Pro Max skill for AI coding assistants.
+CLI to install shyftplan UI/UX skill for AI coding assistants.
 
 ## Installation
 
 ```bash
-npm install -g uipro-cli
+npm install -g aiux-cli
 ```
 
 ## Usage

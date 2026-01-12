@@ -1,8 +1,8 @@
 import { writeFile } from 'node:fs/promises';
 import type { Release } from '../types/index.js';
 
-const REPO_OWNER = 'nextlevelbuilder';
-const REPO_NAME = 'ui-ux-pro-max-skill';
+const REPO_OWNER = 'shyftplan';
+const REPO_NAME = 'ai-ui-ux-skill';
 const API_BASE = 'https://api.github.com';
 
 export async function fetchReleases(): Promise<Release[]> {
@@ -11,7 +11,7 @@ export async function fetchReleases(): Promise<Release[]> {
   const response = await fetch(url, {
     headers: {
       'Accept': 'application/vnd.github.v3+json',
-      'User-Agent': 'uipro-cli',
+      'User-Agent': 'aiux-cli',
     },
   });
 
@@ -28,7 +28,7 @@ export async function getLatestRelease(): Promise<Release> {
   const response = await fetch(url, {
     headers: {
       'Accept': 'application/vnd.github.v3+json',
-      'User-Agent': 'uipro-cli',
+      'User-Agent': 'aiux-cli',
     },
   });
 
@@ -42,7 +42,7 @@ export async function getLatestRelease(): Promise<Release> {
 export async function downloadRelease(url: string, dest: string): Promise<void> {
   const response = await fetch(url, {
     headers: {
-      'User-Agent': 'uipro-cli',
+      'User-Agent': 'aiux-cli',
     },
   });
 

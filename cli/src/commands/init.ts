@@ -19,7 +19,7 @@ interface InitOptions {
 }
 
 export async function initCommand(options: InitOptions): Promise<void> {
-  logger.title('UI/UX Pro Max Installer');
+  logger.title('shyftplan UI/UX Installer');
 
   let aiType = options.ai;
 
@@ -68,7 +68,7 @@ export async function initCommand(options: InitOptions): Promise<void> {
     });
 
     console.log();
-    logger.success('UI/UX Pro Max installed successfully!');
+    logger.success('shyftplan UI/UX installed successfully!');
 
     // Next steps
     console.log();

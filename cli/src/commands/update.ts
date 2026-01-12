@@ -10,7 +10,7 @@ interface UpdateOptions {
 }
 
 export async function updateCommand(options: UpdateOptions): Promise<void> {
-  logger.title('UI/UX Pro Max Updater');
+  logger.title('shyftplan UI/UX Updater');
 
   const spinner = ora('Checking for updates...').start();
 

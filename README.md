@@ -1,14 +1,10 @@
-# UI UX Pro Max
+# shyftplan UI UX
 
 An AI skill that provides design intelligence for building professional UI/UX across multiple platforms and frameworks.
 
-<p align="center">
-  <img src="screenshots/website.png" alt="UI UX Pro Max" width="800">
-</p>
-
 ## Overview
 
-UI UX Pro Max is a searchable database of UI styles, color palettes, font pairings, chart types, product recommendations, UX guidelines, and stack-specific best practices. It works as a skill/workflow for AI coding assistants (Claude Code, Codex, Cursor, Windsurf, etc.).
+shyftplan UI UX is a searchable database of UI styles, color palettes, font pairings, chart types, product recommendations, UX guidelines, and stack-specific best practices. It works as a skill/workflow for AI coding assistants (Claude Code, Codex, Cursor, Windsurf, etc.).
 
 ## Features
 
@@ -25,7 +21,7 @@ UI UX Pro Max is a searchable database of UI styles, color palettes, font pairin
 
 ```bash
 # Install CLI globally
-npm install -g uipro-cli
+npm install -g aiux-cli
 
 # Go to your project
 cd /path/to/your/project
@@ -56,14 +52,14 @@ Copy the appropriate folders to your project:
 
 | AI Assistant   | Folders to Copy                                                     |
 | -------------- | ------------------------------------------------------------------- |
-| Claude Code    | `.claude/skills/ui-ux-pro-max/`                                     |
-| Cursor         | `.cursor/commands/ui-ux-pro-max.md` + `.shared/ui-ux-pro-max/`      |
-| Windsurf       | `.windsurf/workflows/ui-ux-pro-max.md` + `.shared/ui-ux-pro-max/`   |
-| Antigravity    | `.agent/workflows/ui-ux-pro-max.md` + `.shared/ui-ux-pro-max/`      |
-| GitHub Copilot | `.github/prompts/ui-ux-pro-max.prompt.md` + `.shared/ui-ux-pro-max/`|
-| Kiro           | `.kiro/steering/ui-ux-pro-max.md` + `.shared/ui-ux-pro-max/`        |
-| Codex          | `.codex/skills/ui-ux-pro-max/`                                     |
-| Gemini CLI     | `.gemini/skills/ui-ux-pro-max/` + `.shared/ui-ux-pro-max/`         |
+| Claude Code    | `.claude/skills/shyftplan-ui-ux/`                                     |
+| Cursor         | `.cursor/commands/shyftplan-ui-ux.md` + `.shared/shyftplan-ui-ux/`      |
+| Windsurf       | `.windsurf/workflows/shyftplan-ui-ux.md` + `.shared/shyftplan-ui-ux/`   |
+| Antigravity    | `.agent/workflows/shyftplan-ui-ux.md` + `.shared/shyftplan-ui-ux/`      |
+| GitHub Copilot | `.github/prompts/shyftplan-ui-ux.prompt.md` + `.shared/shyftplan-ui-ux/`|
+| Kiro           | `.kiro/steering/shyftplan-ui-ux.md` + `.shared/shyftplan-ui-ux/`        |
+| Codex          | `.codex/skills/shyftplan-ui-ux/`                                     |
+| Gemini CLI     | `.gemini/skills/shyftplan-ui-ux/` + `.shared/shyftplan-ui-ux/`         |
 
 ## Prerequisites
 
@@ -98,23 +94,23 @@ Build a landing page for my SaaS product
 Use the slash command to invoke the skill:
 
 ```
-/ui-ux-pro-max Build a landing page for my SaaS product
+/shyftplan-ui-ux Build a landing page for my SaaS product
 ```
 
 ### Kiro
 
-Type `/` in chat to see available commands, then select `ui-ux-pro-max`:
+Type `/` in chat to see available commands, then select `shyftplan-ui-ux`:
 
 ```
-/ui-ux-pro-max Build a landing page for my SaaS product
+/shyftplan-ui-ux Build a landing page for my SaaS product
 ```
 
 ### GitHub Copilot
 
-In VS Code with Copilot, type `/` in chat to see available prompts, then select `ui-ux-pro-max`:
+In VS Code with Copilot, type `/` in chat to see available prompts, then select `shyftplan-ui-ux`:
 
 ```
-/ui-ux-pro-max Build a landing page for my SaaS product
+/shyftplan-ui-ux Build a landing page for my SaaS product
 ```
 
 ### Codex CLI
@@ -122,7 +118,7 @@ In VS Code with Copilot, type `/` in chat to see available prompts, then select 
 The skill activates automatically for UI/UX requests. You can also invoke it explicitly:
 
 ```
-$ui-ux-pro-max Build a landing page for my SaaS product
+$shyftplan-ui-ux Build a landing page for my SaaS product
 ```
 
 ### Gemini CLI
@@ -162,10 +158,6 @@ The skill provides stack-specific guidelines for:
 - **SwiftUI** / **React Native** / **Flutter**
 
 Just mention your preferred stack in the prompt, or let it default to HTML + Tailwind.
-
-## Star History
-
-[![Star History Chart](https://api.star-history.com/svg?repos=nextlevelbuilder/ui-ux-pro-max-skill&type=Date)](https://star-history.com/#nextlevelbuilder/ui-ux-pro-max-skill&Date)
 
 ## License
 

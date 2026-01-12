@@ -9,7 +9,7 @@ Antigravity Kit is an AI-powered design intelligence toolkit providing searchabl
 ## Search Command
 
 ```bash
-python3 .claude/skills/ui-ux-pro-max/scripts/search.py "<query>" --domain <domain> [-n <max_results>]
+python3 .claude/skills/shyftplan-ui-ux/scripts/search.py "<query>" --domain <domain> [-n <max_results>]
 ```
 
 **Domain search:**
@@ -24,14 +24,14 @@ python3 .claude/skills/ui-ux-pro-max/scripts/search.py "<query>" --domain <domai
 
 **Stack search:**
 ```bash
-python3 .claude/skills/ui-ux-pro-max/scripts/search.py "<query>" --stack <stack>
+python3 .claude/skills/shyftplan-ui-ux/scripts/search.py "<query>" --stack <stack>
 ```
 Available stacks: `html-tailwind` (default), `react`, `nextjs`, `vue`, `svelte`, `swiftui`, `react-native`, `flutter`, `shadcn`
 
 ## Architecture
 
 ```
-.claude/skills/ui-ux-pro-max/    # Claude Code skill
+.claude/skills/shyftplan-ui-ux/    # Claude Code skill
 ├── SKILL.md                      # Skill definition with workflow instructions
 ├── scripts/
 │   ├── search.py                 # CLI entry point
@@ -40,10 +40,10 @@ Available stacks: `html-tailwind` (default), `react`, `nextjs`, `vue`, `svelte`,
     └── stacks/                   # Stack-specific guidelines (8 CSV files)
 
 .windsurf/workflows/              # Windsurf workflow copy
-.agent/workflows/ui-ux-pro-max/   # Generic agent workflow copy
+.agent/workflows/shyftplan-ui-ux/   # Generic agent workflow copy
 .github/prompts/                  # GitHub Copilot prompt
 .kiro/steering/                   # Kiro steering file
-.shared/ui-ux-pro-max/            # Shared data copy
+.shared/shyftplan-ui-ux/            # Shared data copy
 ```
 
 The search engine uses BM25 ranking combined with regex matching. Domain auto-detection is available when `--domain` is omitted.
@@ -52,7 +52,7 @@ The search engine uses BM25 ranking combined with regex matching. Domain auto-de
 
 When modifying files, keep all agent workflows in sync:
 
-- **Data & Scripts** (`data/`, `scripts/`): Copy changes to `.shared/ui-ux-pro-max/` and `cli/assets/.shared/ui-ux-pro-max/`
+- **Data & Scripts** (`data/`, `scripts/`): Copy changes to `.shared/shyftplan-ui-ux/` and `cli/assets/.shared/shyftplan-ui-ux/`
 - **SKILL.md**: Update corresponding files in `.agent/`, `.cursor/`, `.windsurf/`, `.github/prompts/`, `.kiro/steering/`
 - **CLI assets**: Copy all skill folders to `cli/assets/` (`.claude/`, `.cursor/`, `.windsurf/`, `.agent/`, `.github/`, `.kiro/`, `.shared/`)
 

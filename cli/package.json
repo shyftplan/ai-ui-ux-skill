@@ -1,7 +1,7 @@
 {
-  "name": "uipro-cli",
+  "name": "aiux-cli",
   "version": "1.5.1",
-  "description": "CLI to install UI/UX Pro Max skill for AI coding assistants",
+  "description": "CLI to install shyftplan UI/UX skill for AI coding assistants",
   "type": "module",
   "bin": {
     "uipro": "./dist/index.js"

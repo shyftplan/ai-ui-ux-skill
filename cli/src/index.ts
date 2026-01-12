@@ -11,12 +11,12 @@ const program = new Command();
 
 program
   .name('uipro')
-  .description('CLI to install UI/UX Pro Max skill for AI coding assistants')
+  .description('CLI to install shyftplan UI/UX skill for AI coding assistants')
   .version('1.5.0');
 
 program
   .command('init')
-  .description('Install UI/UX Pro Max skill to current project')
+  .description('Install shyftplan UI/UX skill to current project')
   .option('-a, --ai <type>', `AI assistant type (${AI_TYPES.join(', ')})`)
   .option('-f, --force', 'Overwrite existing files')
   .action(async (options) => {
@@ -38,7 +38,7 @@ program
 
 program
   .command('update')
-  .description('Update UI/UX Pro Max to latest version')
+  .description('Update shyftplan UI/UX to latest version')
   .option('-a, --ai <type>', `AI assistant type (${AI_TYPES.join(', ')})`)
   .action(async (options) => {
     if (options.ai && !AI_TYPES.includes(options.ai)) {
