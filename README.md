@@ -152,12 +152,12 @@ Make a mobile app UI for e-commerce
 
 The skill provides stack-specific guidelines for:
 
-- **HTML + Tailwind** (default)
+- **HTML + Tailwind**
 - **React** / **Next.js** / **shadcn/ui**
-- **Vue** / **Nuxt.js** / **Nuxt UI** / **Svelte**
+- **Vue** (default) / **Nuxt.js** / **Nuxt UI** / **Svelte**
 - **SwiftUI** / **React Native** / **Flutter**
 
-Just mention your preferred stack in the prompt, or let it default to HTML + Tailwind.
+Just mention your preferred stack in the prompt, or let it default to Vue.
 
 ## License
 

@@ -44,7 +44,7 @@ Extract key information from user request:
 - **Product type**: SaaS, e-commerce, portfolio, dashboard, landing page, etc.
 - **Style keywords**: minimal, playful, professional, elegant, dark mode, etc.
 - **Industry**: healthcare, fintech, gaming, education, etc.
-- **Stack**: React, Vue, Next.js, or default to `html-tailwind`
+- **Stack**: React, Vue, Next.js, or default to `vue`
 
 ### Step 2: Search Relevant Domains
 
@@ -63,11 +63,11 @@ python3 .shared/shyftplan-ui-ux/scripts/search.py "<keyword>" --domain <domain> 
 5. **Landing** - Get page structure (if landing page)
 6. **Chart** - Get chart recommendations (if dashboard/analytics)
 7. **UX** - Get best practices and anti-patterns
-8. **Stack** - Get stack-specific guidelines (default: html-tailwind)
+8. **Stack** - Get stack-specific guidelines (default: vue)
 
-### Step 3: Stack Guidelines (Default: html-tailwind)
+### Step 3: Stack Guidelines (Default: vue)
 
-If user doesn't specify a stack, **default to `html-tailwind`**.
+If user doesn't specify a stack, **default to `vue`**.
 
 ```bash
 python3 .shared/shyftplan-ui-ux/scripts/search.py "<keyword>" --stack html-tailwind
@@ -134,7 +134,7 @@ python3 .shared/shyftplan-ui-ux/scripts/search.py "hero-centric social-proof" --
 python3 .shared/shyftplan-ui-ux/scripts/search.py "animation" --domain ux
 python3 .shared/shyftplan-ui-ux/scripts/search.py "accessibility" --domain ux
 
-# 7. Search stack guidelines (default: html-tailwind)
+# 7. Search stack guidelines (default: vue)
 python3 .shared/shyftplan-ui-ux/scripts/search.py "layout responsive" --stack html-tailwind
 ```
 
