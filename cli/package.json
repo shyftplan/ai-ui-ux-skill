@@ -4,7 +4,7 @@
   "description": "CLI to install shyftplan UI/UX skill for AI coding assistants",
   "type": "module",
   "bin": {
-    "uipro": "./dist/index.js"
+    "aiux": "./dist/index.js"
   },
   "files": [
     "dist",

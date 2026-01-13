@@ -12,17 +12,17 @@ npm install -g @shyftplan/aiux-cli
 
 ```bash
 # Install for specific AI assistant
-uipro init --ai claude      # Claude Code
-uipro init --ai cursor      # Cursor
-uipro init --ai windsurf    # Windsurf
-uipro init --ai antigravity # Antigravity
-uipro init --ai codex       # Codex (Skills)
-uipro init --ai all         # All assistants
+aiux init --ai claude      # Claude Code
+aiux init --ai cursor      # Cursor
+aiux init --ai windsurf    # Windsurf
+aiux init --ai antigravity # Antigravity
+aiux init --ai codex       # Codex (Skills)
+aiux init --ai all         # All assistants
 
 # Other commands
-uipro versions              # List available versions
-uipro update                # Update to latest version
-uipro init --version v1.0.0 # Install specific version
+aiux versions              # List available versions
+aiux update                # Update to latest version
+aiux init --version v1.0.0 # Install specific version
 ```
 
 ## Development
