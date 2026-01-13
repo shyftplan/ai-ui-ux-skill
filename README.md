@@ -17,6 +17,15 @@ shyftplan UI UX is a searchable database of UI styles, color palettes, font pair
 
 ## Installation
 
+### For Antigravity users
+
+To install or update the skill, copy and paste this into the Antigravity chat:
+
+```bash
+Please install the shyftplan UI/UX skill by running this command:
+curl -sL https://raw.githubusercontent.com/shyftplan/ai-ui-ux-skill/main/install.py | python3
+```
+
 ### Using CLI (Recommended)
 
 ```bash
