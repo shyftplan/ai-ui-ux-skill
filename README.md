@@ -8,12 +8,12 @@ shyftplan UI UX is a searchable database of UI styles, color palettes, font pair
 
 ## Features
 
-- **57 UI Styles** - Glassmorphism, Claymorphism, Minimalism, Brutalism, Neumorphism, Bento Grid, Dark Mode, and more
-- **95 Color Palettes** - Industry-specific palettes for SaaS, E-commerce, Healthcare, Fintech, Beauty, etc.
-- **56 Font Pairings** - Curated typography combinations with Google Fonts imports
+- **58 UI Styles** - shyftplan B2B Enterprise, Glassmorphism, Claymorphism, Minimalism, Brutalism, Neumorphism, Bento Grid, Dark Mode, and more
+- **96 Color Palettes** - shyftplan, Industry-specific palettes for SaaS, E-commerce, Healthcare, Fintech, Beauty, etc.
+- **57 Font Pairings** - shyftplan, as well as curated typography combinations with Google Fonts imports
 - **24 Chart Types** - Recommendations for dashboards and analytics
-- **11 Tech Stacks** - React, Next.js, Vue, Nuxt.js, Nuxt UI, Svelte, SwiftUI, React Native, Flutter, HTML+Tailwind, shadcn/ui
-- **98 UX Guidelines** - Best practices, anti-patterns, and accessibility rules
+- **11 Tech Stacks** - Vue (with Ant components), React, Next.js, Nuxt.js, Nuxt UI, Svelte, SwiftUI, React Native, Flutter, HTML+Tailwind, shadcn/ui
+- **109 UX Guidelines** - Constantly growing best practices, anti-patterns, and accessibility rules
 
 ## Installation
 
