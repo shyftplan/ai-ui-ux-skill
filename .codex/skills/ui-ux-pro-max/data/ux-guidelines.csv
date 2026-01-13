@@ -98,3 +98,4 @@ No,Category,Issue,Platform,Description,Do,Don't,Code Example Good,Code Example B
 97,Sustainability,Asset Weight,Web,Heavy 3D/Image assets increase carbon footprint,Compress and lazy load 3D models,Load 50MB textures,Draco compression,Raw .obj files,Medium
 98,AI Interaction,Feedback Loop,All,AI needs user feedback to improve,Thumps up/down or 'Regenerate',Static output only,Feedback component,Read-only text,Low
 99,Accessibility,Motion Sensitivity,All,Parallax/Scroll-jacking causes nausea,Respect prefers-reduced-motion,Force scroll effects,@media (prefers-reduced-motion),ScrollTrigger.create(),High
+100,Data Display,Table Density,Web,High-volume data tables need consistent vertical rhythm for scanability,Use fixed row heights (48px) and sticky headers,Inconsistent row heights or missing headers,h-[48px] border-b border-gray-200 sticky top-0,h-auto border-none static,High
