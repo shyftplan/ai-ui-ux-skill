@@ -21,7 +21,7 @@ shyftplan UI UX is a searchable database of UI styles, color palettes, font pair
 
 ```bash
 # Install CLI globally
-npm install -g aiux-cli
+npm install -g @shyftplan/aiux-cli
 
 # Go to your project
 cd /path/to/your/project

@@ -5,7 +5,7 @@ CLI to install shyftplan UI/UX skill for AI coding assistants.
 ## Installation
 
 ```bash
-npm install -g aiux-cli
+npm install -g @shyftplan/aiux-cli
 ```
 
 ## Usage
