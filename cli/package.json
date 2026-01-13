@@ -1,6 +1,6 @@
 {
   "name": "@shyftplan/aiux-cli",
-  "version": "1.5.1",
+  "version": "1.0.0",
   "description": "CLI to install shyftplan UI/UX skill for AI coding assistants",
   "type": "module",
   "bin": {
